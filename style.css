@@ -1,0 +1,129 @@
+.slider-body {
+    position: relative;
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.slider-item {
+    background: aliceblue;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+}
+
+.arrow-body {
+    background: cornflowerblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  white;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+
+}
+
+.slider-footer-item {
+    background: cornflowerblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    user-select: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.point-active {
+    background: black;
+}
+
+.slider-photo {
+    width: 30%;
+    height:  100%;
+    border-radius:15px 0 0 15px;
+    overflow: hidden; /* чтобы изображение не выходило за края */
+    position: relative;
+}
+
+.slider-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* заполняет весь блок, возможно с обрезкой */
+    display: block;
+}
+
+.slider-text-block {
+    width: 70%;
+    height:  100%;
+    overflow: hidden; /* чтобы изображение не выходило за края */
+    position: relative;
+    border-radius:0 15px 15px 0;
+}
+
+.slider-label {
+    color: blue;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.slider-header {
+    color: red;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.slider-text {
+    color: black;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.slider-customer {
+    color: rgb(154, 154, 154);
+    padding: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.slider-customer-position {
+    color: rgb(154, 154, 154);
+    padding: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
